@@ -1,5 +1,13 @@
 import React from 'react';
+import Header from '../header';
+import Introduction from '../introduction';
+import About from '../about';
 
 export default (props) => (
-    <div>Portfolio App!</div>
+  <>
+    {/* React Fragment shorthand */}
+    <Header />
+    <Introduction />
+    <About />
+  </>
 );

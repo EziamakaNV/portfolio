@@ -13,4 +13,5 @@ parserOptions:
   sourceType: module
 plugins:
   - react
-rules: {}
+rules:
+  linebreak-style: off
