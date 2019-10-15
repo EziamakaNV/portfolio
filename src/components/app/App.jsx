@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '../header';
 import Introduction from '../introduction';
 import About from '../about';
-import Experience from '../experience';
+import Experience from '../experience/experience';
 
 export default (props) => (
   <>
