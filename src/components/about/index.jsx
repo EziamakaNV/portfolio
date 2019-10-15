@@ -62,6 +62,11 @@ and
                     Node.js
                   </div>
                 </li>
+                <li className="collection-item black-text">
+                  <div>
+                    Webpack
+                  </div>
+                </li>
               </ul>
             </div>
             <div className="col s6">
@@ -84,6 +89,11 @@ and
                 <li className="collection-item black-text">
                   <div>
                     Travis CI
+                  </div>
+                </li>
+                <li className="collection-item black-text">
+                  <div>
+                    Materialize CSS
                   </div>
                 </li>
               </ul>
