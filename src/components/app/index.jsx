@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import M from 'materialize-css';
 import Markup from './app';
 
 export default class App extends Component {
