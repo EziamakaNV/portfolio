@@ -2,7 +2,7 @@ const HtmlWebPackPlugin = require('html-webpack-plugin');
 const path = require('path');
 
 const htmlWebpackPlugin = new HtmlWebPackPlugin({
-  template: './src/index.html',
+  template: './src/client/index.html',
   filename: './index.html',
 });
 
@@ -11,7 +11,7 @@ module.exports = {
     extensions: ['.js', '.jsx'], // Added to let webpack resolve jsx files e.g import Markup from './App'
   },
   entry: {
-    main: path.resolve(__dirname, './src/index.jsx'),
+    main: path.resolve(__dirname, './src/client/index.jsx'),
   },
   output: {
     filename: 'app.js',
