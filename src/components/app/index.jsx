@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import Markup from './App.jsx';
-import 'materialize-css/dist/css/materialize.min.css';
-import M from 'materialize-css';
+import Markup from './app';
 
 export default class App extends Component {
   constructor(props) {
@@ -11,7 +9,7 @@ export default class App extends Component {
 
   render() {
     return (
-          <Markup />
+      <Markup />
     );
   }
 }

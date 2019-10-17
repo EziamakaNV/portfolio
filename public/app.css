@@ -1,0 +1,22 @@
+.tabs .tab a {
+    color: #2196f3;
+}
+
+.tabs .tab a:hover {
+    color: lightblue
+}
+
+.tabs .tab a.active {
+    background-color: #2196f3;
+    color: white
+}
+
+.tabs .tab a:focus, .tabs .tab a:focus.active {
+    background-color: #2196f3;
+    color: white;
+    outline: none;
+}
+
+.tabs .indicator {
+    background-color: gray;
+}

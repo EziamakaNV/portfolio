@@ -7,8 +7,11 @@ const htmlWebpackPlugin = new HtmlWebPackPlugin({
 });
 
 module.exports = {
+  resolve: {
+    extensions: ['.js', '.jsx'], // Added to let webpack resolve jsx files e.g import Markup from './App'
+  },
   entry: {
-    main: path.resolve(__dirname, './src/index.js'),
+    main: path.resolve(__dirname, './src/index.jsx'),
   },
   output: {
     filename: 'app.js',
@@ -26,18 +29,14 @@ module.exports = {
       {
         test: /\.css$/,
         use: [
-          {
-            loader: 'style-loader',
-          },
-          {
-            loader: 'css-loader',
-            options: {
-              importLoaders: 1,
-              modules: {
-                localIdentName: '[name]__[local]___[hash:base64:5]',
-              },
-            },
-          },
+          'style-loader',
+          'css-loader',
+        ],
+      },
+      {
+        test: /\.(png|svg|jpg|jpeg|gif)$/, // Used to load images
+        use: [
+          'file-loader',
         ],
       },
     ],
