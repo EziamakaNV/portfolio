@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Markup from './app';
+import Markup from './App';
 
 export default class App extends Component {
   constructor(props) {
