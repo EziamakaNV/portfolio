@@ -1,5 +1,5 @@
 import React from 'react';
-import picture from '../../../public/images/profile_pic.jpeg';
+import picture from '../../../../public/images/profile_pic.jpeg';
 
 export default (props) => (
   <div className="blue">

@@ -2,8 +2,8 @@ const myWorks = [
   {
     cardTitle: 'Portfolio Website',
     description: 'My very first portfolio website. Built to get more practice with React and the Materialize-css framework',
-    techlist: ['Webpack', 'React', 'Materialize-CSS', 'Babel', 'EsLint', 'Github Pages'],
-    externalLink: 'https://eziamakanv.github.io/portfolio',
+    techlist: ['Webpack', 'React', 'Materialize-CSS', 'Babel', 'EsLint', 'Node'],
+    externalLink: 'https://eziamakanv.herokuapp.com/',
     githubLink: 'https://github.com/EziamakaNV/portfolio',
   },
   {
