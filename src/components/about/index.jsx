@@ -6,7 +6,7 @@ export default (props) => (
     <section id="about" className="container white-text">
       <div className="row">
         <div className="col s12">
-          <h3>About me</h3>
+          <h3 className="center">About me</h3>
         </div>
       </div>
       <div className="row">

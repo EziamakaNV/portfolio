@@ -5,7 +5,7 @@ export default () => (
     <section className="container">
       <div className="row">
         <div className="col s12">
-          <h3>Introduction</h3>
+          <h3 className="center">Introduction</h3>
         </div>
         <div className="col s12">
           <p className="flow-text">
@@ -17,7 +17,7 @@ export default () => (
           </p>
         </div>
         <div className="s12 center">
-          <a className="blue btn">Get In Touch</a>
+          <a href="mailto:eziamakanv@gmail.com" className="blue btn-large">Get In Touch</a>
         </div>
       </div>
     </section>

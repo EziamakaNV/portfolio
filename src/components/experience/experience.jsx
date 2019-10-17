@@ -5,7 +5,7 @@ export default (props) => (
     <section id="experience" className="container black-text">
       <div className="row">
         <div className="col s12">
-          <h3>Where I've Worked</h3>
+          <h3 className="center">Where I&apos;ve Worked</h3>
         </div>
       </div>
       <div className="row">
@@ -17,7 +17,7 @@ export default (props) => (
           </ul>
         </div>
         <div id="qrios-experience" className="col s12">
-          <p className="flow-text"><b>Technical Support Analyst @ Qrios</b></p>
+          <p className="flow-text"><b>Technical Support Analyst @ Qrios Networks</b></p>
           <p><b>March 2018 - March 2019</b></p>
           <ul className="collection">
             <li className="collection-item">
@@ -69,7 +69,7 @@ export default (props) => (
           </ul>
         </div>
         <div id="bmw-nigeria-experience" className="col s12">
-        <p className="flow-text"><b>Service Technician/Inter @ BMW Nigeria</b></p>
+        <p className="flow-text"><b>Service Technician/Intern @ BMW Nigeria</b></p>
           <p><b>July 2013 - August 2014</b></p>
           <ul className="collection">
             <li className="collection-item">
